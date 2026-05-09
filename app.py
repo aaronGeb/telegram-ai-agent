@@ -66,7 +66,7 @@ async def telegram_webhook(request: Request):
     # Handle /start command
     if user_message == "/start":
         welcome = (
-            "👋 Hello! I'm your AI assistant powered by Gemini.\n\n"
+            "Hello! I'm your AI assistant powered by Gemini.\n\n"
             "Just send me any message and I'll reply!\n\n"
             "Commands:\n"
             "/start - Show this message\n"
@@ -79,7 +79,7 @@ async def telegram_webhook(request: Request):
     if user_message == "/clear":
         chat_sessions.pop(chat_id, None)
         await bot.send_message(
-            chat_id=chat_id, text="🗑️ Conversation history cleared! Starting fresh."
+            chat_id=chat_id, text="Conversation history cleared! Starting fresh."
         )
         return {"status": "ok"}
 
