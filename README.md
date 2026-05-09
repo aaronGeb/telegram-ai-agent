@@ -1,4 +1,4 @@
-# 🤖 Telegram AI Agent
+# Telegram AI Agent
 
 A Telegram bot powered by **Google Gemini 2.0 Flash** and **FastAPI**, exposed to the internet via **ngrok**.
 
@@ -36,7 +36,7 @@ Telegram Response
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone / enter the project folder
 
